@@ -10,7 +10,7 @@ Review date: November 2, 2026.
 - Prediction-contract checks passed: finite normalized probabilities, binary predictions, embedded cutoff, one output per input row, and invariance to ID/target columns. Inputs were not mutated.
 - The fitted pipeline retained 59 financial columns and 57 missingness indicators.
 - The descriptive bootstrap and 11-row duplicate-profile sensitivity reproduced. The same frozen model predicted 120 positive flags among 1,092 unlabeled companies; this is not a holdout accuracy estimate.
-- Notebook schema, all 50 code-cell syntax trees, execution tags, metric arithmetic, and release-content checks passed. Both original CSVs are included in the private repository at the owner's request and checked against their original fingerprints; local output exclusion rules were checked with Git.
+- Notebook schema, all 50 code-cell syntax trees, execution tags, metric arithmetic, and release-content checks passed. Both original CSVs are included in the public repository at the owner's request and checked against their original fingerprints; local output exclusion rules were checked with Git.
 - The original notebook remains unchanged. It is fingerprinted in the manifest; no original history or submission archive was copied into Git.
 
 ## Checked environment

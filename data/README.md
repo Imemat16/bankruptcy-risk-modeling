@@ -1,6 +1,6 @@
 # Included inputs
 
-Both original CSV files are included in this **private repository** at the owner's request:
+Both original CSV files are included in this **public repository** at the owner's request:
 
 ```text
 data/train/companies.csv
@@ -13,4 +13,4 @@ The labeled CSV has 4,818 rows and 68 columns, including `Id` and binary `Bankru
 
 From the repository root, run `python scripts/reproduce.py --data-dir data --kernel bankruptcy-risk --mode final` after installing the documented environment. Interactive notebook execution uses this directory automatically. `BANKRUPTCY_DATA_DIR` can override it.
 
-The supplied materials do not establish the authoritative dataset origin or redistribution rights. Inclusion in this private repository does not grant a public redistribution license. Keep the repository private pending separate owner approval and a rights review. Local execution reports, fitted models, and per-company prediction exports remain excluded.
+The supplied materials do not establish the authoritative dataset origin or redistribution rights. The owner explicitly authorized public visibility, including these files, on November 2, 2026. Repository availability does not establish redistribution rights or grant a dataset license. Local execution reports, fitted models, and per-company prediction exports remain excluded.

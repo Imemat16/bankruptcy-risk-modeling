@@ -54,7 +54,7 @@ python -m pip install -r requirements.txt
 python -m ipykernel install --user --name bankruptcy-risk --display-name "Bankruptcy Risk"
 ```
 
-Both original CSV files are included in this private repository under `data/`. Their checksums, dimensions, and schema are validated by the project checks; see [data/README.md](data/README.md). From the repository root:
+Both original CSV files are included in this public repository under `data/`. Their checksums, dimensions, and schema are validated by the project checks; see [data/README.md](data/README.md). From the repository root:
 
 ```bash
 python scripts/check_project.py
@@ -81,7 +81,7 @@ results/                       Aggregate verified metrics, plot, input fingerpri
 docs/METHODOLOGY.md             Validation design and statistical interpretation
 docs/REPRODUCIBILITY.md         What was checked, environment, and execution scope
 docs/DATA_AND_PROVENANCE.md     Origin, privacy, redistribution, and preservation notes
-docs/PUBLISHING.md              Private-first GitHub review and publication steps
+docs/PUBLISHING.md              GitHub publication status and update instructions
 data/                          Included training/holdout CSVs and input contract
 ci/validate.yml                Inactive GitHub Actions template; see publishing notes
 ```
@@ -100,4 +100,4 @@ Run `python scripts/check_project.py` locally to validate notebook structure, re
 
 ## Provenance and publication
 
-Adapted from a completed academic bankruptcy-prediction notebook. This repository preserves the original split, feature formulas, selected model, threshold, and verified results while removing grading instructions and course scaffolding. It does not imply affiliation with any employer. This repository is private and includes the original CSV inputs at the owner's request. Data redistribution rights and underlying course-material rights remain unverified; original coursework archives and local execution reports are excluded. Public release requires separate approval and a rights review. See [provenance](docs/DATA_AND_PROVENANCE.md) and the [private-first publishing guide](docs/PUBLISHING.md). No open-source license is asserted pending a rights review.
+Adapted from a completed academic bankruptcy-prediction notebook. This repository preserves the original split, feature formulas, selected model, threshold, and verified results while removing grading instructions and course scaffolding. It does not imply affiliation with any employer. This repository is public and includes the original CSV inputs at the owner's explicit request. Data redistribution rights and underlying course-material rights remain unverified; original coursework archives and local execution reports are excluded. The owner authorized public visibility on November 2, 2026. See [provenance](docs/DATA_AND_PROVENANCE.md) and the [publishing notes](docs/PUBLISHING.md). No open-source license is asserted pending a rights review.
