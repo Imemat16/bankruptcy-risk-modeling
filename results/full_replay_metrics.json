@@ -1,0 +1,81 @@
+{
+  "mode": "full",
+  "verified_reference_match": true,
+  "python": "3.11.16",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.0",
+    "nbformat": "5.11.0",
+    "nbclient": "0.11.0",
+    "ipykernel": "6.29.5",
+    "threadpoolctl": "3.5.0",
+    "joblib": "1.5.3"
+  },
+  "train_rows": 3854,
+  "test_rows": 964,
+  "test_bankruptcies": 62,
+  "train": {
+    "Accuracy": 0.9776855215360665,
+    "Recall": 0.959349593495935,
+    "Precision": 0.7564102564102564,
+    "ROC_AUC": 0.9969140392623439,
+    "AP": 0.9700200123969929,
+    "Brier": 0.012450383557659194,
+    "TN": 3532,
+    "FP": 76,
+    "FN": 10,
+    "TP": 236,
+    "Cost": 126,
+    "Cost_per_company": 0.03269330565646082
+  },
+  "test": {
+    "Accuracy": 0.9574688796680498,
+    "Recall": 0.8548387096774194,
+    "Precision": 0.6235294117647059,
+    "ROC_AUC": 0.9725877977254845,
+    "AP": 0.8571039177790153,
+    "Brier": 0.022029835109629588,
+    "TN": 870,
+    "FP": 32,
+    "FN": 9,
+    "TP": 53,
+    "Cost": 77,
+    "Cost_per_company": 0.07987551867219916
+  },
+  "baseline_cost": 310,
+  "cost_reduction_fraction": 0.7516129032258064,
+  "bootstrap_95_percent": {
+    "cost_savings": [
+      158.975,
+      304.0
+    ],
+    "recall": [
+      0.7608695652173914,
+      0.9375240384615384
+    ]
+  },
+  "test_profile_overlap_rows": 11,
+  "nonoverlapping_test": {
+    "Accuracy": 0.9569779643231899,
+    "Recall": 0.8524590163934426,
+    "Precision": 0.6190476190476191,
+    "ROC_AUC": 0.9719363375725943,
+    "AP": 0.8534430614032877,
+    "Brier": 0.022189158935479156,
+    "TN": 860,
+    "FP": 32,
+    "FN": 9,
+    "TP": 52,
+    "Cost": 77,
+    "Cost_per_company": 0.080797481636936
+  },
+  "holdout_rows": 1092,
+  "holdout_flagged": 120,
+  "retained_financial_features": 59,
+  "missingness_flags": 57,
+  "threshold": 0.15000000000000002,
+  "full_searches_rerun": true
+}

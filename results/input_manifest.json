@@ -1,0 +1,13 @@
+{
+  "source_notebook_sha256": "f4b4a768b7dece2790794942517017464148bc21031b83f30b76007c77eb02f8",
+  "data": {
+    "holdout/companies.csv": {
+      "sha256": "7dd0f4f48e924d03a4832b3bb2e2c7c9c00f52376265e21a0a97d73d4f887378",
+      "bytes": 996189
+    },
+    "train/companies.csv": {
+      "sha256": "40ada7d131dbbd5e8ed624a533697970290b037f6d2ecc15b551584ac6c55395",
+      "bytes": 4410464
+    }
+  }
+}

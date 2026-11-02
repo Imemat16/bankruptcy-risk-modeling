@@ -1,0 +1,31 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# Private inputs, credentials, local outputs
+data/*
+!data/README.md
+private_data/
+reports/*
+!reports/.gitkeep
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.zip
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Original inputs explicitly authorized for this private repository
+!data/train/
+!data/holdout/
+!data/train/companies.csv
+!data/holdout/companies.csv
